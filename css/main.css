@@ -1,10 +1,8 @@
 #placeholder{
-    /* border: 5px solid red; */
     padding: 30px;
     height: 25px;
     display:flex;
     align-items: center;
-    flex-direction: ;
     justify-content: center;
 }
 
@@ -40,11 +38,9 @@
 
 #sign-in{
     display: block;
-    flex-shrink;
     font-family:  Arial, Helvetica;
     font-weight:lighter;
     color: black;
-    /* border: 1px solid lightgrey; */
 
 }
 
@@ -60,12 +56,11 @@
     padding: 6px;
     font-size: small;
     display: inline-block;
-    float: left;
+    
 }
 
 #forgot{
     display: inline-block;
-    float: left;
 }
 
 #continue{
@@ -117,6 +112,13 @@ input{
     border-style: outset;
 }
 
+.continue-button {
+    width: 330px;
+    background-color: #ff9900;
+    height: 30px;
+    border-radius: 4px;
+}
+
 #links ul{
     font-size:x-small;
     padding: 20px;
@@ -131,8 +133,8 @@ input{
     
 }
 
-#links ul{
-    
+.forgot-password {
+    margin-left: 70px;
 }
 
 footer{
@@ -142,11 +144,3 @@ footer{
 #copyright{
     font-size: x-small;
 }
-
-/* #email-heading{
-    margin-left: 20px;
-    font-family: Arial, Helvetica;
-    font-weight:lighter;
-    color: gray;
-    font-size: 11px;
-} */
